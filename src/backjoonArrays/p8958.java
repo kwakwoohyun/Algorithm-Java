@@ -1,7 +1,8 @@
+package backjoonArrays;
+
 import java.util.Scanner;
 
-public class Main {
-
+public class p8958 {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Scanner sc = new Scanner(System.in);
@@ -15,7 +16,7 @@ public class Main {
             int num[] = new int[example[i].length()];
             int sum = 0;
             char a[] = example[i].toCharArray();
-            int result =0;
+            int result = 0;
             for (int j = 0; j < a.length; j++) {
                 if (a[j] == 'O') {
                     num[j] = sum + 1;
@@ -23,8 +24,8 @@ public class Main {
                 } else {
                     sum = 0;
                 }
-                if (num[j]!=0){
-                    result=result+num[j];
+                if (num[j] != 0) {
+                    result = result + num[j];
                 }
             }
             System.out.println(result);
