@@ -1,6 +1,8 @@
+package backjoonMethod;
+
 import java.util.HashSet;
 
-public class Main {
+public class p4673 {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -28,4 +30,5 @@ public class Main {
         sum = sum + num;
         return sum;
     }
+
 }
