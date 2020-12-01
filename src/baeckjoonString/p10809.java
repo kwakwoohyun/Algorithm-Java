@@ -1,7 +1,9 @@
+package baeckjoonString;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class p10809 {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -12,11 +14,12 @@ public class Main {
 //        baekjoon
         for (int i = 0; i < S.length; i++) {
             if (basic[S[i] - 97] == -1) {
-                basic[(int)S[i]-97] = i;
+                basic[(int) S[i] - 97] = i;
             }
         }
         for (int i = 0; i < basic.length; i++) {
             System.out.println(basic[i]);
         }
     }
+
 }
