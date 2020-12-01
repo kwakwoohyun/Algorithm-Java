@@ -1,6 +1,8 @@
+package backjoonMethod;
+
 import java.util.Scanner;
 
-public class Main {
+public class p1065 {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -27,7 +29,7 @@ public class Main {
             for (int i = 0; i < cha.length - 1; i++) {
                 if (cha[i] == cha[i + 1]) {
                     continue;
-                }else{
+                } else {
                     return false;
                 }
             }
