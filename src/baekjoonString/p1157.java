@@ -1,7 +1,9 @@
+package baekjoonString;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class p1157 {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -31,4 +33,5 @@ public class Main {
         }
         System.out.println((char)('A'+index));
     }
+
 }
