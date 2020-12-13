@@ -1,6 +1,9 @@
 package baekjoonMath1;
 
+import java.util.Scanner;
+
 public class p2839 {
+    private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -35,5 +38,5 @@ public class p2839 {
         }
 
     }
-    
+
 }

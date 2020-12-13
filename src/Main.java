@@ -1,15 +1,24 @@
 import java.util.*;
 
 public class Main {
+    private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        String[] str = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
-        Scanner sc = new Scanner(System.in);
-        char[] ch = sc.next().toCharArray();
-        for (int i = 0; i < ch.length; i++) {
-            for (int j = 0; j < str.length; j++) {
-
+        int N = sc.nextInt();
+        int sum = 1;
+        int i = 1;
+        while (true) {
+            if (N != 1) {
+                sum = sum + (6 * i);
+                if (N <= sum) {
+                    System.out.println(i + 1);
+                    break;
+                }
+                i++;
+            } else {
+                System.out.println(1);
+                break;
             }
         }
     }
