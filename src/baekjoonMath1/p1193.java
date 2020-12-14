@@ -1,6 +1,8 @@
-import java.util.*;
+package baekjoonMath1;
 
-public class Main {
+import java.util.Scanner;
+
+public class p1193 {
     private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
