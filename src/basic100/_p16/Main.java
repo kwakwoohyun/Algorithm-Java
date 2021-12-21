@@ -3,6 +3,11 @@ package basic100._p16;
 /*
     다음 입력 n을 받아 *을 출력하시오
     입력 : n
+    *
+    **
+    ***
+    ****
+    *****
  */
 
 import java.util.Scanner;
