@@ -5,6 +5,7 @@ import java.util.Scanner;
 /*
     다음 입력 n의 m승의 결과를 출력하시오
     입력 : 5 3
+    125
  */
 public class Main {
 
