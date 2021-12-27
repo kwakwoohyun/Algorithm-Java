@@ -1,9 +1,9 @@
 package basic100._p23;
 
 import java.util.Arrays;
-import java.util.Scanner;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
 
 /*
     입력된 문자열을 뒤집어서 출력
