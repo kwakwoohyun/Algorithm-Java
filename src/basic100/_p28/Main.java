@@ -24,9 +24,15 @@ public class Main {
         }
 
 //        그냥 풀기
-//        while (num > input) {
-//
-//        }
+        List<Integer> result = new ArrayList<>();
+        while (num > input) {
+            result.add(num % input);
+            num = num / input;
+        }
+        result.add(num);
+        Collections.reverse(result);
+        result.stream().forEach(System.out::print);
+//        System.out.println(result);
     }
 
 }
